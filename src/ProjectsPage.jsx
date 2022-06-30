@@ -4,12 +4,17 @@ import AskJud from "./images/Ask.jpg";
 import CodeYogi from "./images/CodeYogi.jpg";
 import Project from "./Project";
 import weather from "./images/weather-app-img.jpg";
+import covid19tracker from "./images/covid-19-tracker.jpg";
 
 function ProjectsPage() {
     return (
         <section id="projects" className="pt-10">
             <div className="text-white flex justify-center text-4xl pb-10 font-bold">My <span className="text-cyan-600 ml-2"> projects</span></div>
             <div className="flex flex-col space-y-5 overflow-auto h-screen sm:pr-4">
+
+                <Project image={covid19tracker} title_gray="Corona" title_white="Tracker" href="https://strong-frangipane-211632.netlify.app" classs="object-left">
+                    This is Covid-19-tracker. It is a fully responsive appllication. It helps us to get track of covid-19 throughout the world.
+                </Project>
                
                 <Project image={weather} title_gray="Weather" title_white="App" href="https://classy-crisp-440ebb.netlify.app/" classs="object-center">
                     This is a weather application. It shows you the current weather conditions of places you search for.

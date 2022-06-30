@@ -7,7 +7,7 @@ function Sidebar() {
     return (
         <>
             <div className={`${ isopen? "w-40" : "w-12" }  duration-500 hidden sm:block top-0 left-0 fixed h-full bg-cyan-500`}>
-                <img className={`${ !isopen? "rotate-0 right-3" : "rotate-180 " } duration-500 absolute cursor-pointer top-4 -right-1 w-7`} src='https://img.icons8.com/material-two-tone/2x/circled-chevron-right.png'
+                <img className={`${ !isopen? "rotate-0 right-3" : "rotate-180 -right-1" } duration-500 absolute cursor-pointer top-4  w-7`} src='https://img.icons8.com/material-two-tone/2x/circled-chevron-right.png'
                     onClick={() => setIsopen(!isopen)} />
                 
                 <div className={`${!isopen?"scale-0":""} duration-500 flex items-center pl-4`}>
