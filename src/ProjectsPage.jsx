@@ -5,12 +5,17 @@ import CodeYogi from "./images/CodeYogi.jpg";
 import Project from "./Project";
 import weather from "./images/weather-app-img.jpg";
 import covid19tracker from "./images/covid-19-tracker.jpg";
+import eCommerceCart from "./images/e-commerce-cart.jpg";
 
 function ProjectsPage() {
     return (
         <section id="projects" className="pt-10">
             <div className="text-white flex justify-center text-4xl pb-10 font-bold">My <span className="text-cyan-600 ml-2"> projects</span></div>
             <div className="flex flex-col space-y-5 overflow-auto h-screen sm:pr-4">
+
+            <Project image={eCommerceCart} title_gray="E-commerce" title_white="Cart" href="https://stately-squirrel-0f7531.netlify.app" classs="">
+                  This is an e-commerce-cart project. In this project you can add and remove items in your cart, increase or decrease their quantity. and you can see the calculated total price of items in your cart.
+                </Project>
 
                 <Project image={covid19tracker} title_gray="Corona" title_white="Tracker" href="https://strong-frangipane-211632.netlify.app" classs="object-left">
                     This is Covid-19-tracker. It is a fully responsive appllication. It helps us to get track of covid-19 throughout the world.

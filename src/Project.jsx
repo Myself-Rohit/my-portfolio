@@ -20,7 +20,7 @@ let classs = props.classs || ''
                 </h1>
                 <p className="text-white ">{props.children}
                 </p>
-                <Button><a className="px-4" href={props.href} target="_blank">view</a></Button>
+               <a className="" href={props.href} target="_blank"><Button>view</Button></a>
             </div>
         </div>
                </>

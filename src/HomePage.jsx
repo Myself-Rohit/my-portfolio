@@ -17,9 +17,9 @@ function HomePage() {
                         </div>
                     </h1>
                     <p className="text-transparent bg-clip-text bg-gradient-to-t from-gray-500 to-white max-w-sm text-sm py-4 ">A passionate front-end web developer.</p>
-                    <Button >
-                        <Link smooth={true} duration={800} to="contact">Contact</Link>
-                    </Button>
+                    
+                        <Link smooth={true} duration={800} to="contact"><Button>Contact</Button></Link>
+                    
                 </div>
                 
             </section>
